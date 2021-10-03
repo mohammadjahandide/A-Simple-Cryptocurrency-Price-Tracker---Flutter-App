@@ -1,5 +1,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.jddmd.cryptocurrency_price_tracker">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
    <application
         android:label="cryptocurrency_price_tracker"
         android:icon="@mipmap/ic_launcher">
