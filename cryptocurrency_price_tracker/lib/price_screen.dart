@@ -22,9 +22,10 @@ class _PriceScreenState extends State<PriceScreen> {
   void _getData() async {
     for (int i = 0; i < cryptoList.length; ++i) {
       var data = await CoinData().getData(cryptoList[i], _selectedCurrency);
-      _amounts[i] = data['rate'].toInt().toString();
+      setState(() {
+        _amounts[i] = data['rate'].toInt().toString();
+      });
     }
-    setState(() {});
   }
 
   void _initAmountValue() {
