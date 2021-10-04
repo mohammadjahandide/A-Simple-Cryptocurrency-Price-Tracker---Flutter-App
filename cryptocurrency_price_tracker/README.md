@@ -4,5 +4,6 @@ A Simple Cryptocurrency Price Tracker
 
 
 
-https://user-images.githubusercontent.com/67603446/135763123-23484a04-a42c-4e75-8921-0facab103317.mp4
 
+
+![Video_21-10-04_10-26-51](https://user-images.githubusercontent.com/67603446/135809865-7b46f566-aa31-4b37-85f8-3d1fa0b7a8c2.gif)
